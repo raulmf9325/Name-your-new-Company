@@ -9,6 +9,7 @@ class App extends StatelessWidget{
   Widget build(BuildContext context) {
     
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Names for a startUp',
       home: RandomWords(),
     );
@@ -82,7 +83,7 @@ class RandomWordsState extends State<RandomWords>{
             body: ListView(children: dividedTiles,),
           );
         }
-        );
+        )
       );
     }
 
