@@ -24,7 +24,6 @@ class RandomWords extends StatefulWidget{
 }
 
 
-
 // States
 class RandomWordsState extends State<RandomWords>{
     final _suggestions = <WordPair>[];
