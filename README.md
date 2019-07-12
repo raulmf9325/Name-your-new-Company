@@ -1,6 +1,6 @@
 # startup_company_name
 
-A new Flutter project.
+An app that generates random names for a startup company
 
 ## Getting Started
 
